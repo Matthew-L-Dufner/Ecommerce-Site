@@ -1,0 +1,26 @@
+img {
+  max-width: 10rem;
+}
+
+.cart-item {
+  display: flex;
+}
+
+.cart-img {
+
+}
+
+.cart-content {
+  flex-grow: 1;
+  padding-left: 2rem;
+  color: #111;
+}
+
+.btn-delete{
+  color: #ff0011;
+  float: right;
+  margin: 0 2rem 0 3rem;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}

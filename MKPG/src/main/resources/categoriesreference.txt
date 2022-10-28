@@ -1,0 +1,64 @@
+
+        "categoryId": 1,"Action","Nintendo"
+
+        "categoryId": 2,"Adventure""Nintendo"
+
+        "categoryId": 3,"Arcade","Nintendo"
+
+        "categoryId": 4,"Indie","Nintendo"
+
+        "categoryId": 5,"MMO","Nintendo"
+
+        "categoryId": 6,"RPG","Nintendo"
+
+        "categoryId": 7,"Shooter","Nintendo"
+ 
+        "categoryId": 8,"Sports","Nintendo"
+
+        "categoryId": 9,"Action","PC"
+
+        "categoryId": 10,"Adventure","PC"
+
+        "categoryId": 11,"Arcade","PC"
+
+        "categoryId": 12,"Indie","PC"
+
+        "categoryId": 13,"MMO","PC"
+
+        "categoryId": 14,"RPG","PC"
+
+        "categoryId": 15,"Shooter","PC"
+
+        "categoryId": 16,"Sports","PC"
+
+        "categoryId": 17,"Action","Playstation"
+
+        "categoryId": 18,"Adventure","Playstation"
+
+        "categoryId": 19,"Indie","Playstation"
+
+        "categoryId": 20,"MMO","Playstation"
+
+        "categoryId": 21,"RPG","Playstation"
+
+        "categoryId": 22,"Shooter","Playstation"
+
+        "categoryId": 23,"Sports","Playstation"
+
+        "categoryId": 24,"Arcade","Playstation"
+
+        "categoryId": 25,"Action","Xbox"
+
+        "categoryId": 26,"Adventure","Xbox"
+
+        "categoryId": 27,"Arcade","Xbox"
+
+        "categoryId": 28,"Indie","Xbox"
+
+        "categoryId": 29,"MMO","Xbox"
+
+        "categoryId": 30,"RPG","Xbox"
+
+        "categoryId": 31,"Shooting","Xbox"
+
+        "categoryId": 32,"Sports","Xbox"

@@ -1,0 +1,57 @@
+<header [class.dropdown-open]="dropDownCart">
+  <div class="container">
+    <div class="logo">
+      <div (click)="onClickHome()" class="item-icon"><img src="assets/images/MKPG.jpg" alt="MKPG" height="150" width="150"></div>
+    </div>
+    <div class="menu">
+      <ul class="menu-list">
+        <li class="menu-item" (click)="onClickNintendo()">Nintendo</li>
+        <li class="menu-item" (click)="onClickPlayStation()">PlayStation</li>
+        <li class="menu-item" (click)="onClickXBox()">Xbox</li>
+        <li class="menu-item" (click)="onClickPC()">PC</li>
+      </ul>
+    </div>
+    <div class="search" [class.active]="showSearch">
+      <input class="input input-search" type="text" [(ngModel)]="searchItem" (keyup)="getItems()" placeholder="Search..." (click)="onClickShowSearch()">
+      <div class="search-result" [class.active]="showSearch">
+        <div *ngFor="let item of itemArr" >
+          <picture>
+            <img class="search-image" [src]="item.itemImage">
+          </picture>
+          <div class="search-result-content">
+            <div><a [routerLink]="['/item']" [queryParams]="{id: item.itemId}" (click)="hideSearch()">{{item.itemName}}</a></div>
+            <div>{{item.category.name}}</div>
+          </div>
+        </div>
+      </div>
+      <button class="search-hide" (click)="hideSearch()" [class.active]="showSearch">X</button>
+    </div>
+    <div class="second-menu">
+      <ul class="menu-list">
+        <li class="item-icon item-icon-customer" (mouseenter)="onMouseEnterProfile()" (mouseleave)="onMouseleaveProfile()">
+          <i class="bi bi-person"></i>
+          <div class="dropdown" *ngIf="dropDown">
+            <ul *ngIf="loggedIn;else dropDown2">
+              <li (click)="onClickProfile()">Profile</li>
+              <li (click)="onClickLogOut()">LogOut</li>
+            </ul>
+            <ng-template #dropDown2>
+              <ul>
+                <li (click)="onClickLogin()">Login</li>
+                <li (click)="onClickRegister()">Register</li>
+              </ul>
+            </ng-template>
+          </div>
+        </li>
+        <li class="item-icon" >
+          <div (click)="toggleCart()" ><i class="bi bi-cart3"></i><span class="items-total">{{totalItems}}</span></div>
+          <div class="dropdown-cart" [class.active]="dropDownCart">
+            <h3 class="cart-title">Cart <button (click)="toggleCart()" class="btn-close">X</button></h3>
+            <app-cart [cart]="cart"></app-cart>
+            <button (click)="toCheckOut()" class="btn">Check Out</button>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</header>

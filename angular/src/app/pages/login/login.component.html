@@ -1,0 +1,32 @@
+<div class="container">
+  <div class="form-container">
+    <h1 class="u-align-center" >LogIn</h1>
+    <form [formGroup]="form" (ngSubmit)="logIn()">
+      <div>
+        <label>Email:</label>
+        <input class="input" type="email" placeholder="Email" formControlName="email">
+        <strong class="error" *ngIf="form.get('email')?.touched && form.get('email')?.hasError('required'); else emailError">
+          This field is required
+        </strong>
+        <ng-template #emailError>
+          <strong class="error" *ngIf="form.get('email')?.touched && form.get('email')?.hasError('email')">
+            This email is not valid
+          </strong>
+        </ng-template>
+      </div>
+      <div>
+        <label>Password</label>
+        <input class="input" type="password" placeholder="Password" formControlName="password">
+        <strong class="error" *ngIf="form.get('password')?.touched && form.get('password')?.hasError('required')">
+          This field is required
+        </strong>
+      </div>
+      <strong class="error" *ngIf="showErr">
+        the email and password combination is incorrect
+      </strong>
+      <button class="btn" type="submit">LogIn</button>
+    </form>
+  </div>
+</div>
+
+

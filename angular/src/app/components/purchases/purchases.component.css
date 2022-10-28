@@ -1,0 +1,39 @@
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.item-purchased {
+  display: flex;
+  margin-bottom: 3rem;
+}
+
+.item-container {
+  padding-left: 3rem;
+}
+
+img {
+  max-width: 6rem;
+}
+
+.title {
+  text-align: left;
+  font-weight: 700;
+}
+
+.item{
+  font-size: 1.3rem;
+}
+
+table {
+  text-align: left;
+}
+
+td {
+  min-width: 10rem;
+}
+
+

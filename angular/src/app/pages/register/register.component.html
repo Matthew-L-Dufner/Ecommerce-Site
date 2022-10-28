@@ -1,0 +1,57 @@
+<div class="container">
+  <div class="form-container">
+    <h1>Register</h1>
+    <form [formGroup]="form" (ngSubmit)="save()">
+      <div>
+        <label>First Name:</label>
+        <input class="input" type="text" placeholder="First Name" formControlName="firstName">
+        <strong class="error" *ngIf="form.get('firstName')?.touched && form.get('firstName')?.hasError('required')">
+          This field is required
+        </strong>
+      </div>
+      <div>
+        <label>Last Name:</label>
+        <input class="input" type="text" placeholder="Last Name" formControlName="lastName">
+        <strong class="error" *ngIf="form.get('lastName')?.touched && form.get('lastName')?.hasError('required')">
+          This field is required
+        </strong>
+      </div>
+      <div>
+        <label>Email:</label>
+        <input class="input" type="email" placeholder="Email" formControlName="email">
+        <strong class="error" *ngIf="form.get('email')?.touched && form.get('email')?.hasError('required'); else emailError">
+          This field is required
+        </strong>
+        <ng-template #emailError>
+          <strong class="error" *ngIf="form.get('email')?.touched && form.get('email')?.hasError('email')">
+            This email is not valid
+          </strong>
+        </ng-template>
+      </div>
+      <div>
+        <label>Phone Number:</label>
+        <input class="input" type="tel" placeholder="Phone" formControlName="phone">
+        <strong class="error" *ngIf="form.get('phone')?.touched && form.get('phone')?.hasError('required')">
+          This field is required
+        </strong>
+      </div>
+      <div>
+        <label>Birth Date</label>
+        <input class="input" type="date" placeholder="Birth date" formControlName="birthDate">
+        <strong class="error" *ngIf="form.get('birthDate')?.touched && form.get('birthDate')?.hasError('required')">
+          This field is required
+        </strong>
+      </div>
+      <div>
+        <label>Password</label>
+        <input class="input" type="password" placeholder="Password" formControlName="password">
+        <strong class="error" *ngIf="form.get('password')?.touched && form.get('password')?.hasError('required')">
+          This field is required
+        </strong>
+      </div>
+      <button class="btn" type="submit">Register</button>
+    </form>
+  </div>
+</div>
+
+

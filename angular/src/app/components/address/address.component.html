@@ -1,0 +1,44 @@
+<div class="form-container">
+  <form [formGroup]="form" (ngSubmit)="save()">
+    <div>
+      <label>Street</label>
+      <input class="input" type="text" placeholder="Street" formControlName="street">
+      <strong class="error" *ngIf="form.get('street')?.touched && form.get('street')?.hasError('required')">
+        This field is required
+      </strong>
+    </div>
+    <div>
+      <label>City</label>
+      <input class="input" type="text" placeholder="City" formControlName="city">
+      <strong class="error" *ngIf="form.get('city')?.touched && form.get('city')?.hasError('required')">
+        This field is required
+      </strong>
+    </div>
+    <div>
+      <label>State</label>
+      <input class="input" type="text" placeholder="State" formControlName="state">
+      <strong class="error" *ngIf="form.get('state')?.touched && form.get('state')?.hasError('required')">
+        This field is required
+      </strong>
+    </div>
+    <div>
+      <label>Zip Code</label>
+      <input class="input" type="text" placeholder="Zip Code" formControlName="zipCode">
+      <strong class="error" *ngIf="form.get('zipCode')?.touched && form.get('zipCode')?.hasError('required')">
+        This field is required
+      </strong>
+    </div>
+    <div>
+      <label>Type:</label>
+      <select formControlName="type">
+        <option></option>
+        <option value="primary">Primary Address</option>
+        <option value="shipping">Shipping Address</option>
+      </select>
+      <strong class="error" *ngIf="form.get('zipCode')?.touched && form.get('zipCode')?.hasError('required')">
+        This field is required
+      </strong>
+    </div>
+    <button class="btn" type="submit">Add Address</button>
+  </form>
+</div>

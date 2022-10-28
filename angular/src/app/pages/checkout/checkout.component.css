@@ -1,0 +1,33 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-container{
+  flex-grow: 1;
+}
+
+.form-container form {
+  max-width: 40rem;
+}
+
+.form-container {
+  margin: initial;
+}
+
+.total-container {
+  width: 40rem;
+}
+
+img {
+  max-width: 5rem;
+}
+
+.cart-item {
+  display: flex;
+}
+
+.item {
+  display: flex;
+  margin-bottom: 1rem;
+}

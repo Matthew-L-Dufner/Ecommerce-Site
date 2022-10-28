@@ -1,0 +1,20 @@
+<div class="container">
+  <div class="single-item">
+    <picture>
+      <img [src]="item.itemImage">
+    </picture>
+    <div class="item-content">
+      <h2>{{item.itemName}}</h2>
+      <div class="description">{{item.description}}</div>
+      <div class="price">${{item.price}}</div>
+      <div>
+      <form [formGroup]="form" (ngSubmit)="addToCart()">
+        <label>Quantity (max 5):</label>
+        <input type="number" min="1" max="5" formControlName="quantity">
+        <button class="btn" type="submit">Add to cart</button>
+        <div class="text">Must be logged in to Add to Cart</div>
+      </form>
+      </div>
+    </div>
+  </div>
+</div>

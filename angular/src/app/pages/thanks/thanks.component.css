@@ -1,0 +1,10 @@
+@import "~bootstrap-icons/font/bootstrap-icons.css";
+
+body{
+  font-family: 'Nunito', sans-serif;
+  color: var(--color-font);
+  -webkit-font-smoothing: antialiased;
+  font-size: 1.6rem;
+  text-align: center;
+  margin-top: 80px;
+}

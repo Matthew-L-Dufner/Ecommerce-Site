@@ -1,0 +1,31 @@
+<div class="container">
+  <div class="item-purchased" *ngFor="let order of orders">
+    <picture>
+      <img [src]="order.item.itemImage">
+    </picture>
+    <div class="item-container">
+      <div class="title">
+        {{order.item.itemName}}
+      </div>
+      <div class="quantity">
+        <table>
+          <tr>
+            <td>Quantity: </td>
+            <td>{{order.quantity}}</td>
+          </tr>
+          <tr>
+            <td>Price: </td>
+            <td>{{order.item.price | currency}}</td>
+          </tr>
+          <tr>
+            <td>Total: </td>
+            <td>{{((+order.quantity) * (+order.item.price)) | currency}}</td>
+          </tr>
+        </table>
+
+
+      </div>
+
+    </div>
+  </div>
+</div>

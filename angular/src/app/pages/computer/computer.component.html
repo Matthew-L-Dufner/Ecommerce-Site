@@ -1,0 +1,31 @@
+
+<div class="Featured"></div>
+<div class="page-section">
+  <div class="row has-side-left">
+    <div class="row-body">
+      <div class="row-body-inner">
+        <div class="row-body-border">
+          <div class="item-list-wrap">
+            <div class="item-cells-wrap border-cell item-grid-view four-cells expulsion-one-cell">
+              <div class="item-cell" *ngFor="let item of isPlay(items)">
+                <div class="item-container">
+                    <a [routerLink]="['/item']" [queryParams]="{id: item.itemId}"  class="item-img">
+                      <img src="{{ item.itemImage }}" alt="{{ item.itemName }}" width="240px" height="480px">
+                    <ul class="item-features">
+                      <li>
+                        <strong>Console:</strong> {{ item.category.console }}
+                      </li>
+                      <li><strong>ESRB Rating:</strong>{{ item.rating }}</li>
+                      <li><strong>Genre:</strong>{{ item.category.name }}</li>
+                      <li class="price"><strong>${{ item.price }}</strong></li>
+                    </ul></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+

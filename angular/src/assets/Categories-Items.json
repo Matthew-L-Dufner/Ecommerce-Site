@@ -1,0 +1,347 @@
+[
+  {
+    "itemId": 1,
+    "itemName": "FIFA23-NS",
+    "description": "Legendary sports franchise returns bringing new technologies to the table. FIFA 23 introduces HyperMotion2 Technology, World Cup and Women's World Cup, and many new and exciting features that are guaranteed to appeal to every football fan! Enjoy football matches with your dream team of the best players in the world and admire the astounding modern graphics that include over 6000 realistic animations. Never before has virtual football been so immersive and the line between the professional game and video game so blurred.",
+    "price": 60.0,
+    "discountedPrice": 51.63,
+    "rating": "E",
+    "itemImage": "assets/images/FIFA23-NS.jpg",
+    "category": {
+      "categoryId": 8,
+      "name": "Sports",
+      "console": "Nintendo"
+    }
+  },
+  {
+    "itemId": 2,
+    "itemName": "FIFA 23",
+    "description": "Legendary sports franchise returns bringing new technologies to the table. FIFA 23 introduces HyperMotion2 Technology, World Cup and Women's World Cup, and many new and exciting features that are guaranteed to appeal to every football fan! Enjoy football matches with your dream team of the best players in the world and admire the astounding modern graphics that include over 6000 realistic animations. Never before has virtual football been so immersive and the line between the professional game and video game so blurred.",
+    "price": 60.0,
+    "discountedPrice": 51.63,
+    "rating": "E",
+    "itemImage": "assets/images/FIFA23-PC.jpg",
+    "category": {
+      "categoryId": 16,
+      "name": "Sports",
+      "console": "PC"
+    }
+  },
+  {
+    "itemId": 3,
+    "itemName": "FIFA 23",
+    "description": "Legendary sports franchise returns bringing new technologies to the table. FIFA 23 introduces HyperMotion2 Technology, World Cup and Women's World Cup, and many new and exciting features that are guaranteed to appeal to every football fan! Enjoy football matches with your dream team of the best players in the world and admire the astounding modern graphics that include over 6000 realistic animations. Never before has virtual football been so immersive and the line between the professional game and video game so blurred.",
+    "price": 60.0,
+    "discountedPrice": 51.63,
+    "rating": "E",
+    "itemImage": "assets/images/FIFA23-PS.jpg",
+    "category": {
+      "categoryId": 23,
+      "name": "Sports",
+      "console": "Playstation"
+    }
+  },
+  {
+    "itemId": 4,
+    "itemName": "FIFA 23",
+    "description": "Legendary sports franchise returns bringing new technologies to the table. FIFA 23 introduces HyperMotion2 Technology, World Cup and Women's World Cup, and many new and exciting features that are guaranteed to appeal to every football fan! Enjoy football matches with your dream team of the best players in the world and admire the astounding modern graphics that include over 6000 realistic animations. Never before has virtual football been so immersive and the line between the professional game and video game so blurred.",
+    "price": 60.0,
+    "discountedPrice": 51.63,
+    "rating": "E",
+    "itemImage": "assets/images/FIFA23-XB.jpg",
+    "category": {
+      "categoryId": 32,
+      "name": "Sports",
+      "console": "Xbox"
+    }
+  },
+  {
+    "itemId": 5,
+    "itemName": "Madden NFL 23",
+    "description": "EA SPORTS Madden NFL 23 on PlayStation 5 and Xbox Series X|S introduces the all-new FieldSENSE Gameplay System which provides the foundation for consistent, ultra-realistic gameplay, and equips players with more control at all positions in every mode. FieldSENSE leverages animation branching technology and a suite of new user control mechanics for a seamless gameplay flow with authentic results on every play. Play your way into the history books in Face of the Franchise: The League where new position-specific mechanics are brought to life by FieldSENSE and player-focused cameras bring you closer to the action and add to gameplay depth by allowing you to dominate every snap, from anywhere on the field. Call the shots from the front office with updates to Franchise, and experience simplified team-building and convenient competition as you assemble the most powerful roster in all of Madden Ultimate Team. *FieldSENSE Gameplay System only on Playstation 5 and Xbox Series X|S versions.",
+    "price": 60.0,
+    "discountedPrice": 51.63,
+    "rating": "E",
+    "itemImage": "assets/images/MADDEN23-PS.jpg",
+    "category": {
+      "categoryId": 23,
+      "name": "Sports",
+      "console": "Playstation"
+    }
+  },
+  {
+    "itemId": 6,
+    "itemName": "Madden NFL 23",
+    "description": "EA SPORTS Madden NFL 23 on PlayStation 5 and Xbox Series X|S introduces the all-new FieldSENSE Gameplay System which provides the foundation for consistent, ultra-realistic gameplay, and equips players with more control at all positions in every mode. FieldSENSE leverages animation branching technology and a suite of new user control mechanics for a seamless gameplay flow with authentic results on every play. Play your way into the history books in Face of the Franchise: The League where new position-specific mechanics are brought to life by FieldSENSE and player-focused cameras bring you closer to the action and add to gameplay depth by allowing you to dominate every snap, from anywhere on the field. Call the shots from the front office with updates to Franchise, and experience simplified team-building and convenient competition as you assemble the most powerful roster in all of Madden Ultimate Team. *FieldSENSE Gameplay System only on Playstation 5 and Xbox Series X|S versions.",
+    "price": 60.0,
+    "discountedPrice": 51.63,
+    "rating": "E",
+    "itemImage": "assets/images/MADDEN23-PC.jpg",
+    "category": {
+      "categoryId": 16,
+      "name": "Sports",
+      "console": "PC"
+    }
+  },
+  {
+    "itemId": 7,
+    "itemName": "NBA 2K23",
+    "description": "Become the MVP of the league with NBA 2K23 on Nintendo Switch! Play as some of the biggest names in the NBA or write your own legacy in MyCAREER. Redefine the game as you put together your dream team in MyTEAM and develop your skills on the court with authentic gameplay in this iconic basketball video game.",
+    "price": 60.0,
+    "discountedPrice": 51.63,
+    "rating": "E",
+    "itemImage": "assets/images/NBA2K23-NS.jpg",
+    "category": {
+      "categoryId": 8,
+      "name": "Sports",
+      "console": "Nintendo"
+    }
+  },
+  {
+    "itemId": 8,
+    "itemName": "NBA 2K23",
+    "description": "Become the MVP of the league with NBA 2K23 on Nintendo Switch! Play as some of the biggest names in the NBA or write your own legacy in MyCAREER. Redefine the game as you put together your dream team in MyTEAM and develop your skills on the court with authentic gameplay in this iconic basketball video game.",
+    "price": 70.0,
+    "discountedPrice": 51.63,
+    "rating": "E",
+    "itemImage": "assets/images/NBA2K23-PS.jpg",
+    "category": {
+      "categoryId": 23,
+      "name": "Sports",
+      "console": "Playstation"
+    }
+  },
+  {
+    "itemId": 9,
+    "itemName": "NBA 2K23",
+    "description": "Become the MVP of the league with NBA 2K23 on Nintendo Switch! Play as some of the biggest names in the NBA or write your own legacy in MyCAREER. Redefine the game as you put together your dream team in MyTEAM and develop your skills on the court with authentic gameplay in this iconic basketball video game.",
+    "price": 70.0,
+    "discountedPrice": 51.63,
+    "rating": "E",
+    "itemImage": "assets/images/NBA2K23-XB.jpg",
+    "category": {
+      "categoryId": 32,
+      "name": "Sports",
+      "console": "Xbox"
+    }
+  },
+  {
+    "itemId": 10,
+    "itemName": "Saints Row",
+    "description": "Welcome to Santo Ileso, a vibrant fictional city in the heart of the American Southwest. In a world rife with crime, where lawless factions fight for power, a group of young friends embark on their own criminal venture, as they rise to the top in their bid to become Self Made. As the future Boss, with Neenah, Kevin, and Eli by your side, you'll form The Saints - and take on Los Panteros, The Idols, and Marshall as you build your empire across the streets of Santo Ileso and battle for control of the city. Ultimately Saints Row is the story of a start-up company, it's just that the business The Saints are in happens to be crime. Experience the biggest and best Saints Row playground ever created; the unique sprawling world of Santo Ileso is the backdrop for a wild, larger than life sandbox of thrilling side hustles, criminal ventures and blockbuster missions, as you shoot, drive, and wingsuit your way to the top. Express yourself and unleash your inner Saint, with the most advanced suite of customization tools yet seen in an open-world game - make your character, your car and your crew your own. Dive into epic gunfights and highspeed chases, and witness outrageous only-in-Saints-Row moments in an original story that charts the Saints' remarkable rise to power. Enjoy the freedom of playing the entire campaign with a friend through seamless untethered co-op play, where you can both push the limits of your gang and create your own gameplay moments together. • Witness the Birth of The Saints - Play through an action blockbuster original story full of criminality, extraordinary scenes and signature surprises laced with humor. • Seamless Co-Op - Experience everything on offer with a friend at any time, via fully untethered drop-in / drop out co-op, skipping the need to take either of you out of the outlandish action. Play nice together, or play all new pranks on your team mate. After all, who's the Boss now.",
+    "price": 60.0,
+    "discountedPrice": 42.31,
+    "rating": "M",
+    "itemImage": "assets/images/SaintsRow-PS.jpg",
+    "category": {
+      "categoryId": 17,
+      "name": "Action",
+      "console": "Playstation"
+    }
+  },
+  {
+    "itemId": 11,
+    "itemName": "DEATHLOOP",
+    "description": "In DEATHLOOP, two rival assassins are trapped in a mysterious timeloop on the island of Blackreef, doomed to repeat the same day for eternity. As Colt, the only chance for escape is to end the cycle by assassinating eight key targets before the day resets. Learn from each cycle - try new paths, gather intel, and find new weapons and abilities. Do whatever it takes to break the loop.",
+    "price": 60.0,
+    "discountedPrice": 35.06,
+    "rating": "M",
+    "itemImage": "assets/images/DeathLoop-PC.jpg",
+    "category": {
+      "categoryId": 9,
+      "name": "Action",
+      "console": "PC"
+    }
+  },
+  {
+    "itemId": 12,
+    "itemName": "Saints Row",
+    "description": "Welcome to Santo Ileso, a vibrant fictional city in the heart of the American Southwest. In a world rife with crime, where lawless factions fight for power, a group of young friends embark on their own criminal venture, as they rise to the top in their bid to become Self Made. As the future Boss, with Neenah, Kevin, and Eli by your side, you'll form The Saints - and take on Los Panteros, The Idols, and Marshall as you build your empire across the streets of Santo Ileso and battle for control of the city. Ultimately Saints Row is the story of a start-up company, it's just that the business The Saints are in happens to be crime. Experience the biggest and best Saints Row playground ever created; the unique sprawling world of Santo Ileso is the backdrop for a wild, larger than life sandbox of thrilling side hustles, criminal ventures and blockbuster missions, as you shoot, drive, and wingsuit your way to the top. Express yourself and unleash your inner Saint, with the most advanced suite of customization tools yet seen in an open-world game - make your character, your car and your crew your own. Dive into epic gunfights and highspeed chases, and witness outrageous only-in-Saints-Row moments in an original story that charts the Saints' remarkable rise to power. Enjoy the freedom of playing the entire campaign with a friend through seamless untethered co-op play, where you can both push the limits of your gang and create your own gameplay moments together. • Witness the Birth of The Saints - Play through an action blockbuster original story full of criminality, extraordinary scenes and signature surprises laced with humor. • Seamless Co-Op - Experience everything on offer with a friend at any time, via fully untethered drop-in / drop out co-op, skipping the need to take either of you out of the outlandish action. Play nice together, or play all new pranks on your team mate. After all, who's the Boss now.",
+    "price": 60.0,
+    "discountedPrice": 42.31,
+    "rating": "M",
+    "itemImage": "assets/images/SaintsRow-XB.jpg",
+    "category": {
+      "categoryId": 25,
+      "name": "Action",
+      "console": "Xbox"
+    }
+  },
+  {
+    "itemId": 13,
+    "itemName": "Marvel's Guardians of the Galaxy",
+    "description": "Fire up a wild ride across the cosmos with a fresh take on Marvel’s Guardians of the Galaxy. In this third-person action-adventure game, you are Star-Lord, and thanks to your bold yet questionable leadership, you have persuaded an oddball crew of unlikely heroes to join you. Some jerk (surely not you) has set off a chain of catastrophic events, and only you can hold the unpredictable Guardians together long enough to fight off total interplanetary meltdown. Use Element Blasters, tag-team beat downs, jet boot-powered dropkicks, nothing’s off-limits. If you think it’s all going to plan, you’re in for a world of surprises, with the consequences of your actions guaranteed to keep the Guardians on their toes. In this original Marvel’s Guardians of the Galaxy story, you’ll cross paths with powerful new beings and unique takes on iconic characters, all caught in a struggle for the galaxy’s fate. It’s time to show the universe what you’re made of. You got this. Probably.",
+    "price": 60.0,
+    "discountedPrice": 30.0,
+    "rating": "T",
+    "itemImage": "assets/images/Guardians-PS.jpg",
+    "category": {
+      "categoryId": 17,
+      "name": "Action",
+      "console": "Playstation"
+    }
+  }
+]
+
+[
+  {
+    "categoryId": 1,
+    "name": "Action",
+    "console": "Nintendo"
+  },
+  {
+    "categoryId": 2,
+    "name": "Adventure",
+    "console": "Nintendo"
+  },
+  {
+    "categoryId": 3,
+    "name": "Arcade",
+    "console": "Nintendo"
+  },
+  {
+    "categoryId": 4,
+    "name": "Indie",
+    "console": "Nintendo"
+  },
+  {
+    "categoryId": 5,
+    "name": "MMO",
+    "console": "Nintendo"
+  },
+  {
+    "categoryId": 6,
+    "name": "RPG",
+    "console": "Nintendo"
+  },
+  {
+    "categoryId": 7,
+    "name": "Shooter",
+    "console": "Nintendo"
+  },
+  {
+    "categoryId": 8,
+    "name": "Sports",
+    "console": "Nintendo"
+  },
+  {
+    "categoryId": 9,
+    "name": "Action",
+    "console": "PC"
+  },
+  {
+    "categoryId": 10,
+    "name": "Adventure",
+    "console": "PC"
+  },
+  {
+    "categoryId": 11,
+    "name": "Arcade",
+    "console": "PC"
+  },
+  {
+    "categoryId": 12,
+    "name": "Indie",
+    "console": "PC"
+  },
+  {
+    "categoryId": 13,
+    "name": "MMO",
+    "console": "PC"
+  },
+  {
+    "categoryId": 14,
+    "name": "RPG",
+    "console": "PC"
+  },
+  {
+    "categoryId": 15,
+    "name": "Shooter",
+    "console": "PC"
+  },
+  {
+    "categoryId": 16,
+    "name": "Sports",
+    "console": "PC"
+  },
+  {
+    "categoryId": 17,
+    "name": "Action",
+    "console": "Playstation"
+  },
+  {
+    "categoryId": 18,
+    "name": "Adventure",
+    "console": "Playstation"
+  },
+  {
+    "categoryId": 19,
+    "name": "Indie",
+    "console": "Playstation"
+  },
+  {
+    "categoryId": 20,
+    "name": "MMO",
+    "console": "Playstation"
+  },
+  {
+    "categoryId": 21,
+    "name": "RPG",
+    "console": "Playstation"
+  },
+  {
+    "categoryId": 22,
+    "name": "Shooter",
+    "console": "Playstation"
+  },
+  {
+    "categoryId": 23,
+    "name": "Sports",
+    "console": "Playstation"
+  },
+  {
+    "categoryId": 24,
+    "name": "Arcade",
+    "console": "Playstation"
+  },
+  {
+    "categoryId": 25,
+    "name": "Action",
+    "console": "Xbox"
+  },
+  {
+    "categoryId": 26,
+    "name": "Adventure",
+    "console": "Xbox"
+  },
+  {
+    "categoryId": 27,
+    "name": "Arcade",
+    "console": "Xbox"
+  },
+  {
+    "categoryId": 28,
+    "name": "Indie",
+    "console": "Xbox"
+  },
+  {
+    "categoryId": 29,
+    "name": "MMO",
+    "console": "Xbox"
+  },
+  {
+    "categoryId": 30,
+    "name": "RPG",
+    "console": "Xbox"
+  },
+  {
+    "categoryId": 31,
+    "name": "Shooting",
+    "console": "Xbox"
+  },
+  {
+    "categoryId": 32,
+    "name": "Sports",
+    "console": "Xbox"
+  }
+]

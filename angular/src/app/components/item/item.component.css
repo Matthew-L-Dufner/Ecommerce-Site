@@ -1,0 +1,30 @@
+.single-item {
+  display: flex;
+  justify-content: center;
+}
+
+picture {
+  max-width: 60rem;
+  margin-right: 5rem;
+}
+
+picture img {
+  max-width: 100%;
+}
+
+.item-content {
+  max-width: 40rem
+}
+
+h2 {
+  margin-bottom: 2rem;
+}
+
+.description{
+  margin-bottom: 2rem;
+}
+.text{
+  padding-left: 7rem;
+    padding-top: 2rem;
+    font-size: 20px;
+}

@@ -1,0 +1,58 @@
+<div class="container">
+  <div class="profile-container">
+    <div class="profile-menu">
+      <div class="profile-item" [ngClass]="active==='profile'? 'active' : ''" (click)="onClickItem('profile')">
+        Profile
+      </div>
+      <div class="profile-item" [ngClass]="active==='purchases'? 'active' : ''" (click)="onClickItem('purchases')">
+        Purchases
+      </div>
+      <div class="profile-item" [ngClass]="active==='addresses'? 'active' : ''" (click)="onClickItem('addresses')">
+        Addresses
+      </div>
+    </div>
+    <div class="profile-content" [ngSwitch]="active">
+      <div class="profile-content-item" *ngSwitchCase="'profile'">
+        <div class="u-strong">{{customer.firstName}} {{customer.lastName}}</div>
+        <div>{{customer.email}}</div>
+        <div>{{customer.phone}}</div>
+        <div>{{customer.birthDate | date: 'MMMM d, y'}}</div>
+        <button class="btn" *ngIf="!passwordForm" (click)="changePassword()">Change Password</button>
+        <div class="form-container" *ngIf="passwordForm">
+            <form [formGroup]="form" (ngSubmit)="save()">
+              <div>
+                <label>Old Password</label>
+                <input class="input" type="password" placeholder="Password" formControlName="oldPassword">
+                <strong class="error" *ngIf="form.get('oldPassword')?.touched && form.get('oldPassword')?.hasError('required')">
+                  This field is required
+                </strong>
+              </div>
+              <div>
+                <label>New Password</label>
+                <input class="input" type="password" placeholder="Password" formControlName="newPassword">
+                <strong class="error" *ngIf="form.get('newPassword')?.touched && form.get('newPassword')?.hasError('required')">
+                  This field is required
+                </strong>
+              </div>
+              <strong class="error" *ngIf="passwordNoValid">
+                Old password incorrect
+              </strong>
+              <button class="btn" type="submit">Change Password</button>
+            </form>
+        </div>
+      </div>
+      <div class="profile-content-item" *ngSwitchCase="'purchases'"><app-purchases></app-purchases></div>
+      <div class="profile-content-item" *ngSwitchCase="'addresses'">
+        <div class="address-list" *ngFor="let address of addresses">
+          <div class="address-item">
+            <div>{{address.street}},</div>
+            <div>{{address.city}}, {{address.state}} {{address.zipCode}}</div>
+            <div><strong>{{address.type | titlecase}} Address</strong></div>
+          </div>
+        </div>
+        <button class="btn" *ngIf="!addressForm" (click)="addAddressForm()">Add new address</button>
+        <app-address [addresses]="addresses" *ngIf="addressForm"></app-address>
+      </div>
+    </div>
+  </div>
+</div>
